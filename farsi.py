@@ -3,9 +3,8 @@
 import arabic_reshaper
 from bidi.algorithm import get_display
 
-def farsi (name) :
-    reshap = arabic_reshaper.reshape(name)
+def convert (text) :
+    reshap = arabic_reshaper.reshape(text)
     rtl = get_display(reshap)
     return rtl
-print(farsi("سلام"))
-print(farsi("خوبی"))
+
