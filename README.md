@@ -11,7 +11,7 @@
     pip install python-bidi
     ```
 ****
-2. speechrecognition :
+3. speechrecognition :
 
     ```sh
     pip install speechrecognition
